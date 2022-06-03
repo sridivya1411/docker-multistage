@@ -1,0 +1,5 @@
+Use :
+
+docker build -t node-vanilla .
+docker run -p 3000:3000 -ti --rm --init node-vanilla
+check in localhost:3000
